@@ -3,7 +3,7 @@
 This tool is intended to help students automatically submit their applications on WaterlooWorks and save time.
 
 ## Install Dependencies
-This tool requires [Python 3](https://www.python.org/downloads/). After installing `python` and cloning the repository, run the following command to install the required dependencies:
+This tool requires [Python 3](https://www.python.org/downloads/). After installing python and cloning the repository, run the following command to install the required dependencies:
 
 ```bash
 pip install -r requirements.txt

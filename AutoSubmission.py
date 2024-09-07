@@ -3,10 +3,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 url = "https://waterlooworks.uwaterloo.ca/waterloo.htm?action=login"
-username = input("Please enter your username: ")
-password = input("Please enter your password: ")
+username = os.getenv("USERNAME")
+password = os.getenv("PASSWORD")
 
 driver = webdriver.Firefox()
 driver.get(url)
